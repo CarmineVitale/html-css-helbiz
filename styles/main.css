@@ -32,6 +32,10 @@ body {
   padding: 0 16px;
 }
 
+.w-25 {
+  width: 25%;
+}
+
 .w-30 {
   width: 30%;
 }
@@ -321,10 +325,34 @@ body {
 #main-footer {
   background: black;
   height: 800px;
+  margin-top: 20px;
+  color: white;
+}
+#main-footer .float {
+  padding-top: 30px;
+  text-align: center;
 }
 
-
-
+#main-footer ul {
+  padding-top: 20px;
+  list-style: none;
+}
+#main-footer ul li {
+  font-size: 14px;
+  padding: 10px 0;
+  color: grey;
+}
+#main-footer .bordi {
+  margin-top: 30px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+#main-footer .space {
+  padding: 50px 0;
+}
+#main-footer .google {
+  text-align: center;
+}
 
 
 
