@@ -322,3 +322,42 @@ body {
   background: black;
   height: 800px;
 }
+
+
+
+
+
+
+/* Responsive part */
+@media all and (max-width: 768px) {
+  /* Sezione header */
+  .main-header {
+    background: green;
+    text-align: center;
+  }
+  .navbar-col-left {
+    float: none;
+    width: 100%;
+  }
+  .navbar-col-right {
+    display: none;
+  }
+ /* sezione jumbotron */
+  #jumbotron .badge {
+    display: block;
+    margin-bottom: 10px;
+  }
+ /* sezione prodotti */
+  #products .float {
+    float: none;
+    width: 100%;
+  }
+  /* sezione info e app iphone */
+  #info .float {
+    float: none;
+    width: 100%
+  }
+  #info .app {
+    margin-bottom: 20px;
+  }
+}
